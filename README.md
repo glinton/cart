@@ -8,8 +8,11 @@ Cart is a helper tool to fetch **C**ircleCI build **art**ifacts and print them i
 ```sh
 go get github.com/glinton/cart
 # to run
+export CIRCLE_TOKEN="abc123"
 $GOPATH/bin/cart -b 1234 -r yourname/repo
 ```
+
+Add `export CIRCLE_TOKEN="abc123"` to your .bashrc to perist it as an environment variable.
 
 
 #### Usage
